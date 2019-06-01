@@ -1,0 +1,35 @@
+STEP 1-
+Create a new repository on GitHub.
+To avoid errors, do not initialize the new repository with README, license, or gitignore files. 
+You can add these files after your project has been pushed to GitHub.
+
+STEP 2-
+Open Git Bash.
+
+STEP 3-
+Initialize the local directory as a Git repository.
+$git init
+
+
+STEP 4-
+Add the files in your new local repository. This stages them for the first commit.
+$git add .
+
+STEP 5-
+Commit the files that you've staged in your local repository.
+$git commit -m "First commit"
+
+STEP 6-
+At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL.
+
+STEP 7-
+In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
+$ git remote add origin remote repository URL
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+
+STEP 8-
+Push the changes in your local repository to GitHub.
+$ git push origin master
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
